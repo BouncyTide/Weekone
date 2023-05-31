@@ -1,1 +1,1 @@
-Hello, this is the README file for the following code files
+Hello, this file takes user input of size of array, array itself, and the middle value, and splits the array into three arrays that are consist of numbers smaller, larger, and equal to the middle value.
