@@ -62,25 +62,3 @@ void split_list(int size, int *list, int value)
         cout << equal[i] << "\n";    
     } 
 }
-
-int main ()
-{
-    int size;
-    cout << "input the size of the list: ";
-    cin >> size;
-
-    int list[size];
-
-    for(int i=0; i < size; i++)
-    {
-        i++;
-        cout << "Insert Number "<< i <<": ";
-        i--;
-        cin >> list[i];
-    }
-
-    int value;
-    cout << "input the middle value: ";
-    cin >> value;
-    split_list(size, list, value);
-}
